@@ -1,0 +1,31 @@
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.navbar-brand-logo img {
+  height: 2rem;
+  width: auto;
+}
+
+.navbar-brand-title {
+  font-size: 1rem;
+  margin: 0;
+  color: #1e1e1e;
+}
+
+.navbar {
+  border-bottom: 1px solid lightgrey;
+  background-color: whitesmoke;
+}
+
+.nav-item .nav-link{
+  color: #1e1e1e;
+  font-size: 1.2rem;
+}
+
+.nav-item .nav-link:hover {
+  color: orangered;
+}
