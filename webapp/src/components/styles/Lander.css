@@ -31,6 +31,7 @@
 .option-link:hover {
   text-decoration: underline;
   cursor: pointer;
+  color: #FC4100;
 }
 
 .option-link {
@@ -40,11 +41,24 @@
 }
 
 @media (max-width: 767.98px) {
+  .lander-section {
+    gap: 10px;
+  }
+
   .logo-text {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .mainLogo img {
-    height: 48px;
+    height: 32px;
+  }
+
+  .row {
+    margin: auto;
+  }
+
+  .row .col-sm-4 {
+    width: 30vw;
+    margin: auto;
   }
 }

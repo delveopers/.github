@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import "./styles/Lander.css";
 
 import mainLogo from "./assets/Logo-2.png";
+import AudioPlayer from './AudioPlayer';
+import skylab from "./assets/skylab.mp3";
+import cover from "./assets/skylab.jpg";
 
 export default function Lander() {
   return (
@@ -18,23 +21,28 @@ export default function Lander() {
         </div>
         <div className="option-section container">
           <div className="row">
-            <div className="col-lg-4 option-text text-center">
+            <div className="col-sm-4 option-text text-center">
               <Link to="/home" className="option-link">
                 Home
               </Link>
             </div>
-            <div className="col-lg-4 option-text text-center">
-              <Link to="/home" className="option-link">
+            <div className="col-sm-4 option-text text-center">
+              <Link to="/docs" className="option-link">
                 Docs
               </Link>
             </div>
-            <div className="col-lg-4 option-text text-center">
-              <Link to="/home" className="option-link">
+            <div className="col-sm-4 option-text text-center">
+              <Link to="/projects" className="option-link">
                 Projects
               </Link>
             </div>
           </div>
         </div>
+        <div className="audio-section">
+          <AudioPlayer src={skylab} filename={"The Skylab Plan"} coverSrc={cover}/>
+        </div>
+      <br />
+      <br />
       </div>
     </>
   )
