@@ -5,11 +5,10 @@ Discrete Entity for Volitional Systems— working towards building artificial co
 ### Projects
 
 - ***EnigmaDB:***  NCBI data pipeline for training data for enigma2
-- ***Shredword:***  Fast BPE-based sub-word tokenizer for LLMs (planned)
 - ***Biosaic:***  Tokenizer for DNA, RNA & Protein tokenizer
-- ***Axon:***  Multi-dim array manipulation library like numpy but faster with power of GPU (planned)
-- ***LLM Cookbook:***  Cookbook to build a sample LLM from scratch with basic resources (planned)
-- ***AxGrad:***  Lightweight Tensor manipulation & Autograd library (planned)
+- ***Axon:***  Multi-dim array manipulation library like numpy but faster with power of GPU
+- ***LLM Cookbook:***  Cookbook to build a sample LLM from scratch with basic resources
+- ***VOX:***  Text-to-Audio model built with KANs
 
 ## Contribution guidelines
 
