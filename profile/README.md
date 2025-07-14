@@ -1,6 +1,6 @@
 ## DEVS
 
-![banner.png](https://github.com/delveopers/.github/tree/main/profile/axon.png)
+![banner.png](https://github.com/delveopers/.github/blob/main/profile/DisplayBanner.png)
 
 Discrete Entity for Volitional Systems— working towards building artificial consciousness.
 
