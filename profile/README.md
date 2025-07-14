@@ -1,5 +1,7 @@
 ## DEVS
 
+![banner.png](https://github.com/delveopers/.github/tree/main/profile/axon.png)
+
 Discrete Entity for Volitional Systems— working towards building artificial consciousness.
 
 ### Projects
@@ -8,7 +10,6 @@ Discrete Entity for Volitional Systems— working towards building artificial co
 - ***Biosaic:***  Tokenizer for DNA, RNA & Protein tokenizer
 - ***Axon:***  Multi-dim array manipulation library like numpy but faster with power of GPU
 - ***LLM Cookbook:***  Cookbook to build a sample LLM from scratch with basic resources
-- ***VOX:***  Text-to-Audio model built with KANs
 
 ## Contribution guidelines
 
