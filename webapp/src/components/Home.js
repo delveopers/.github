@@ -1,5 +1,6 @@
 import React from 'react';
 import "./styles/Home.css";
+import gpu from './assets/gpu.jpg'
 
 export default function Home() {
   return (
@@ -10,13 +11,21 @@ export default function Home() {
             <div className="col-lg-12 about">
               <h2 className="section-title">About Us</h2>
               <br />
-              <p className="section-content">
-                We are working towards creating Artificial Consciousness & making the compute more efficient & accessible than ever. From creating foundational Language Models to lightweight Tensor manipulation
-                library or researching & exploring the field of Computational Biology using AI.
-              </p>
-              <p className="section-content">
-                We hope to become largest ML lab in India & then world.
-              </p>
+              <div className="row section-body">
+                <div className="col-lg-6 col-12">
+                  <p className="section-content">
+                    We are working towards creating Artificial Consciousness & making the compute more efficient & accessible than ever. From creating foundational Language Models to lightweight Tensor manipulation
+                    library or researching & exploring the field of Computational Biology using AI.
+                  </p>
+                  <p className="section-content">
+                    We hope to become largest ML lab in India & then world.
+                  </p>
+                </div>
+                <div className="col-lg-6 col-12">
+                  <img src={gpu} alt="us right now" className='main-img' />
+                  <p>This is us, like ISRO in 1960s</p>
+                </div>
+              </div>
             </div>
             <hr />
             <div className="col-lg-12 join">

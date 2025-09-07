@@ -27,7 +27,7 @@ export default function Projects({ org = 'delveopers' }) {
 
   return (
     <div className="projects container">
-      <h1 className="projects-header">Projects by {org}</h1>
+      <h1 className="projects-header">Projects by DEVS</h1>
       <hr />
       <div className="projects-grid">
         {repos.filter(repo => repo.name.toLowerCase() !== ".github").map(repo => (
