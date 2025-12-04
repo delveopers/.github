@@ -8,8 +8,9 @@ Discrete Entity for Volitional Systems— working towards building artificial co
 
 - ***EnigmaDB:***  NCBI data pipeline for training data for enigma2
 - ***Biosaic:***  Tokenizer for DNA, RNA & Protein tokenizer
-- ***Axon:***  Multi-dim array manipulation library like numpy but faster with power of GPU
+- ***Axon:***  Lightweight tensor library for deep learning model low-latency inference
 - ***LLM Cookbook:***  Cookbook to build a sample LLM from scratch with basic resources
+- ***Seeker:*** Agentic based Research Platform for Journalists, Lawyer, Researchers, etc
 
 ## Contribution guidelines
 
